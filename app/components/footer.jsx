@@ -16,7 +16,7 @@ function Footer() {
             © Developer Portfolio by <Link target="_blank" href={personalData.linkedIn} className="text-[#16f2b3]">{personalData.name}</Link>
           </p>
           <div className="flex items-center gap-5">
-            <Link
+            {/* <Link
               target="_blank"
               href="https://github.com/dhruv2494/My-Portfolio"
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
@@ -31,7 +31,7 @@ function Footer() {
             >
               <CgGitFork />
               <span>Fork</span>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
